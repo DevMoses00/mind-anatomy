@@ -1,0 +1,271 @@
+[gd_scene load_steps=32 format=3 uid="uid://b5fnoqdvqyus3"]
+
+[ext_resource type="Texture2D" uid="uid://bi2lbh2knucrc" path="res://Art/background.png" id="1_5yb43"]
+[ext_resource type="Script" path="res://Scenes/backgrounds.gd" id="1_sx0r2"]
+[ext_resource type="Texture2D" uid="uid://dvhl6aucpgfo1" path="res://Art/Cards/Amari_1.png" id="3_vp4w1"]
+[ext_resource type="Texture2D" uid="uid://dbkonjhasnccy" path="res://Art/Cards/Amari_2.png" id="4_tu7e0"]
+[ext_resource type="Texture2D" uid="uid://662tyy035pqu" path="res://Art/Cards/Amari_3.png" id="5_c0uev"]
+[ext_resource type="Texture2D" uid="uid://c2r5qs7qcudw5" path="res://Art/Cards/machine.png" id="5_gwhhc"]
+[ext_resource type="Texture2D" uid="uid://8qfclc5abolp" path="res://Art/Cards/Amari_4.png" id="6_yj3mm"]
+[ext_resource type="Texture2D" uid="uid://8vtu2fo2fuc1" path="res://Art/Cards/Amari_5.png" id="7_1cqa6"]
+[ext_resource type="Texture2D" uid="uid://cy68focfrg883" path="res://Art/Cards/offoff.png" id="8_tc544"]
+[ext_resource type="Texture2D" uid="uid://br141o4oqaivb" path="res://Art/Cards/Amari_6.png" id="8_v5mwg"]
+[ext_resource type="Texture2D" uid="uid://0pi012xoxhop" path="res://Art/Cards/Amari_7.png" id="9_vpp0m"]
+[ext_resource type="Texture2D" uid="uid://cx558nd42ew8y" path="res://Art/Cards/Amari_8.png" id="10_1pcuj"]
+[ext_resource type="Texture2D" uid="uid://cuak4342q60vr" path="res://Art/Cards/primitive.png" id="10_2nrh8"]
+[ext_resource type="Texture2D" uid="uid://bcvlay4rvugwt" path="res://Art/Cards/Amari_9.png" id="11_d2ws5"]
+[ext_resource type="Texture2D" uid="uid://c8eq1n3yn25ne" path="res://Art/Cards/Amari_10.png" id="12_lxnk7"]
+[ext_resource type="Texture2D" uid="uid://bcq0xaow3vfnc" path="res://Art/Cards/suave.png" id="13_r8wcq"]
+[ext_resource type="Texture2D" uid="uid://btf2garf3cblp" path="res://Art/Cards/Amari_11.png" id="13_xc50g"]
+[ext_resource type="Texture2D" uid="uid://dgu30y2grt2q2" path="res://Art/Cards/Amari_12.png" id="14_rxygv"]
+[ext_resource type="Texture2D" uid="uid://bys1uhxp55jkx" path="res://Art/Cards/femme.png" id="17_2io7s"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_07tao"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_vp4w1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_05wfx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_tu7e0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_gwhhc")
+}],
+"loop": true,
+"name": &"machine",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ejndc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_c0uev")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1jaka"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_yj3mm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_tc544")
+}],
+"loop": true,
+"name": &"offoff",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lfdar"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_1cqa6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_2nrh8")
+}],
+"loop": true,
+"name": &"primitive",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_is7bm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_v5mwg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ld81c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_vpp0m")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_r8wcq")
+}],
+"loop": true,
+"name": &"suave",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4q64j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_1pcuj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m811a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_d2ws5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0fidb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_lxnk7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_2io7s")
+}],
+"loop": true,
+"name": &"femme",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b7to8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_xc50g")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6o5u3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_rxygv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Main" type="Node2D"]
+
+[node name="Backgrounds" type="Node2D" parent="."]
+script = ExtResource("1_sx0r2")
+speed = 0.9
+
+[node name="BackgroundOne" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(-96, 0)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("1_5yb43")
+
+[node name="BackgroundTwo" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(-2198, 0)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("1_5yb43")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Amari_1" type="AnimatedSprite2D" parent="."]
+position = Vector2(-393, -360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_07tao")
+
+[node name="Amari_2" type="AnimatedSprite2D" parent="."]
+position = Vector2(-132, -360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_05wfx")
+
+[node name="Amari_3" type="AnimatedSprite2D" parent="."]
+position = Vector2(130, -360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_ejndc")
+
+[node name="Amari_4" type="AnimatedSprite2D" parent="."]
+position = Vector2(390, -360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_1jaka")
+
+[node name="Amari_5" type="AnimatedSprite2D" parent="."]
+position = Vector2(-393, 0)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_lfdar")
+
+[node name="Amari_6" type="AnimatedSprite2D" parent="."]
+position = Vector2(-132, 0)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_is7bm")
+
+[node name="Amari_7" type="AnimatedSprite2D" parent="."]
+position = Vector2(130, 0)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_ld81c")
+
+[node name="Amari_8" type="AnimatedSprite2D" parent="."]
+position = Vector2(392, 0)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_4q64j")
+
+[node name="Amari_9" type="AnimatedSprite2D" parent="."]
+position = Vector2(-393, 360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_m811a")
+
+[node name="Amari_10" type="AnimatedSprite2D" parent="."]
+position = Vector2(-132, 360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_0fidb")
+
+[node name="Amari_11" type="AnimatedSprite2D" parent="."]
+position = Vector2(130, 360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_b7to8")
+
+[node name="Amari_12" type="AnimatedSprite2D" parent="."]
+position = Vector2(392, 360)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_6o5u3")
