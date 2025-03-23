@@ -1,0 +1,71 @@
+{
+    "Opening":[
+
+        "FMachine",
+
+        "M: SET PARAMETER TO INIT...",
+        
+        "A: No, wait. NO NOT TONIGHT.",
+        
+        "AEyeClose:",
+        
+        "A: No I just want to sleep this wasn't important at all...",
+        
+        "M: LOADING KERNEL...",
+        
+        "M: SYSTEMS INITIALIZING...",
+        
+        "M: ENACTING PROTOCOL 3-6 ...",
+        
+        "A: None of this means anything what are we doing.",
+        
+        "M: ACCESSING MEMORY ADDRESS, PLEASE HOLD...",
+        
+        "A: My brain telling me to 'please hold' you're kidding me.",
+        
+        "M: MEMORY ADDRESS UPLOADED. SYSTEMS COMPLETE.",
+        
+        "M: BUILD TIME: 02:00 GMT -4",
+        
+        "M: WELCOME TO YOUR MIND ANATOMY, AMARI MALLORY...",
+        
+        "A: Great, thanks....",
+        
+        "FMachine",
+        
+        "FSuave", 
+        
+        "S: Good God, MACHINE was excessive tonight, wouldn't you say so Amari?",
+        
+        "A: MACHINE is like this all the time. It's irritating. I can't control it.",
+        
+        "S: For a fake programmable operator, it certainly has an affinity for the spotlight in a particularly human manner."
+    ],
+
+    "Flip":[
+
+        "FMachine:",
+
+        "FSuave:",
+
+        "FFemme:",
+
+        "FOff:",
+
+        "FPrim:",
+
+        "Time: 1",
+
+        "FMachine:",
+
+        "FSuave:",
+
+        "FFemme:",
+
+        "FOff:",
+
+        "FPrim:",
+
+        "Time: 5"
+    ]
+}

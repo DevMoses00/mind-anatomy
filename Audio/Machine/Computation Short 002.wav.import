@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3yd55swvkllf"
+path="res://.godot/imported/Computation Short 002.wav-ed6bc52e23e43e2c6aa6071db015cca6.sample"
+
+[deps]
+
+source_file="res://Audio/Machine/Computation Short 002.wav"
+dest_files=["res://.godot/imported/Computation Short 002.wav-ed6bc52e23e43e2c6aa6071db015cca6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwis3cj58jma0"
+path="res://.godot/imported/Interaction Mechanic A.wav-d5a7ae129a036bd6fb9602d80daec4c7.sample"
+
+[deps]
+
+source_file="res://Audio/Amari/Interaction Mechanic A.wav"
+dest_files=["res://.godot/imported/Interaction Mechanic A.wav-d5a7ae129a036bd6fb9602d80daec4c7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,8 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dqr712f0nxwou"]
+[gd_scene load_steps=5 format=3 uid="uid://dqr712f0nxwou"]
 
 [ext_resource type="Script" path="res://Scripts/text_box.gd" id="1_q7gqu"]
+[ext_resource type="Texture2D" uid="uid://deyw0w11r0pjo" path="res://Art/Temp/text_box.png" id="2_q4p8o"]
+[ext_resource type="FontFile" uid="uid://jthbo0qjvfyo" path="res://Fonts/Arapey-Regular.ttf" id="3_8eigo"]
 
 [sub_resource type="FontVariation" id="FontVariation_uc35b"]
+base_font = ExtResource("3_8eigo")
 
 [node name="TextBox" type="MarginContainer"]
 offset_right = 192.0
@@ -11,6 +14,7 @@ script = ExtResource("1_q7gqu")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 2
+texture = ExtResource("2_q4p8o")
 region_rect = Rect2(27, 27, 450, 450)
 patch_margin_left = 54
 patch_margin_top = 72

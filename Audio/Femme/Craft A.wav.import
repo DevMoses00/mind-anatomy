@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy3f37bv1j27b"
+path="res://.godot/imported/Craft A.wav-631ab1b79dbc53172e8c4abfc8efea77.sample"
+
+[deps]
+
+source_file="res://Audio/Femme/Craft A.wav"
+dest_files=["res://.godot/imported/Craft A.wav-631ab1b79dbc53172e8c4abfc8efea77.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -16,7 +16,7 @@ var dialogue_lines
 var current_line_index = 0
 
 var text_box
-var text_box_position: Vector2
+var text_box_position : Vector2
 var text_box_tween : Tween
 
 var is_dialogue_active = false
@@ -24,12 +24,8 @@ var can_advance_line = false
 
 
 # for the card flips
-# put card flip signals here
-signal machine_flipped
-signal femme_flipped
-signal suave_flipped
-signal offoff_flipped
-signal primitive_flipped
+# A card flip signal that carries the specific argument for which card to flip
+signal card_flipped
 
 # for the characters talking
 signal amari_talking
@@ -39,6 +35,9 @@ signal suave_talking
 signal offoff_talking
 signal primitive_talking
 
+# for Amari closing his eyes
+signal amari_eyes_closed
+signal amari_eyes_opened
 
 # stop all talking
 signal stop_talking
@@ -88,6 +87,26 @@ func _show_text_box():
 		current_line_index += 1
 		_show_text_box()
 		return
+		
+	if dialogue_lines[current_line_index].begins_with("AEyeClose"):
+		print("eyes closed")
+		# send a signal to change the animation to close his eyes
+		amari_eyes_closed.emit()
+		can_advance_line = false
+		await get_tree().create_timer(0.2).timeout
+		current_line_index += 1 
+		_show_text_box()
+		return
+	
+	if dialogue_lines[current_line_index].begins_with("AEyeOpen"):
+		print("eyes open")
+		# send a signal to change the animation to close his eyes
+		amari_eyes_closed.emit()
+		can_advance_line = false
+		await get_tree().create_timer(0.2).timeout
+		current_line_index += 1 
+		_show_text_box()
+		return
 	
 	if dialogue_lines[current_line_index].begins_with("Zoom"):
 		print("camera zoom")
@@ -109,7 +128,6 @@ func _show_text_box():
 		_show_text_box()
 		return
 	
-	
 	if dialogue_lines[current_line_index].begins_with("Endzoom"):
 		print("engage end protocol")
 		# send a signal to tween the camera and zoom closer
@@ -124,9 +142,9 @@ func _show_text_box():
 	if dialogue_lines[current_line_index].begins_with("FMachine"):
 		print("flip machine card")
 		# send a signal to flip card
-		machine_flipped.emit()
+		card_flipped.emit("machine")
 		can_advance_line = false
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.6).timeout
 		current_line_index += 1 
 		_show_text_box()
 		return
@@ -134,9 +152,9 @@ func _show_text_box():
 	if dialogue_lines[current_line_index].begins_with("FFemme"):
 		print("flip femme compatisante card")
 		# send a signal to flip card
-		femme_flipped.emit()
+		card_flipped.emit("femme")
 		can_advance_line = false
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.6).timeout
 		current_line_index += 1 
 		_show_text_box()
 		return
@@ -144,9 +162,9 @@ func _show_text_box():
 	if dialogue_lines[current_line_index].begins_with("FSuave"):
 		print("flip alter ego suave card")
 		# send a signal to flip card
-		suave_flipped.emit()
+		card_flipped.emit("suave")
 		can_advance_line = false
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.6).timeout
 		current_line_index += 1 
 		_show_text_box()
 		return
@@ -154,9 +172,9 @@ func _show_text_box():
 	if dialogue_lines[current_line_index].begins_with("FOff"):
 		print("flip off off broadway card")
 		# send a signal to flip card
-		offoff_flipped.emit()
+		card_flipped.emit("offoff")
 		can_advance_line = false
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.6).timeout
 		current_line_index += 1 
 		_show_text_box()
 		return
@@ -164,9 +182,9 @@ func _show_text_box():
 	if dialogue_lines[current_line_index].begins_with("FPrim"):
 		print("flip primitive ant card")
 		# send a signal to flip card
-		offoff_flipped.emit()
+		card_flipped.emit("primitive")
 		can_advance_line = false
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.6).timeout
 		current_line_index += 1 
 		_show_text_box()
 		return
@@ -181,7 +199,6 @@ func _show_text_box():
 		current_line_index += 1 
 		_show_text_box()
 		return
-	
 		
 	if dialogue_lines[current_line_index].begins_with("Template"):
 		print("play sounds")
@@ -200,48 +217,53 @@ func _show_text_box():
 	
 	if dialogue_lines[current_line_index].begins_with("A:"):
 		# Play an Amari sound
-		#SoundManager.play_sfx("Amari")
-		text_box.global_position = Vector2(150, -120)
+		text_box.global_position = Vector2(430, 360)
 		amari_talking.emit()
 	
 	elif dialogue_lines[current_line_index].begins_with("M:"):
 		# Play the machine sound
-		#SoundManager.play_sfx("Machine")
-		text_box.global_position = Vector2(-150, -140)
+		var machine = ["Machine1","Machine2","Machine3"].pick_random()
+		SoundManager.play_sfx(machine)
+		text_box.global_position = Vector2(-436, -160)
 		machine_talking.emit()
 	
 	elif dialogue_lines[current_line_index].begins_with("F:"):
 		# Play femme compasitante sound
-		#SoundManager.play_sfx("Femme")
+		var femme = ["Femme1","Femme2","Femme3"].pick_random()
+		SoundManager.play_sfx(femme)
 		# change position depending on what a name of a variable is
-		text_box.global_position = Vector2(200, 300)
+		text_box.global_position = Vector2(-436, 360)
 		femme_talking.emit()
 	
 	elif dialogue_lines[current_line_index].begins_with("S:"):
 		# Play alter ego suave sound
-		#SoundManager.play_sfx("Suave")
+		var suave = ["Suave1","Suave2","Suave3"].pick_random()
+		SoundManager.play_sfx(suave)
 		# change position depending on what a name of a variable is
-		text_box.global_position = Vector2(200, 300)
+		text_box.global_position = Vector2(450, 100)
 		suave_talking.emit()
 	
 	elif dialogue_lines[current_line_index].begins_with("P:"):
 		# Play primitive ant sound
-		#SoundManager.play_sfx("Prim")
+		var primitive = ["Primitive1","Primitive2","Primitive3"].pick_random()
+		SoundManager.play_sfx(primitive)
 		# change position depending on what a name of a variable is
-		text_box.global_position = Vector2(200, 300)
+		text_box.global_position = Vector2(-656, 100)
 		primitive_talking.emit()
 	
 	elif dialogue_lines[current_line_index].begins_with("O:"):
 		# Play off off broadway sound
-		#SoundManager.play_sfx("Off")
+		var offoff = ["Offoff1","Offoff2","Offoff3"].pick_random()
+		SoundManager.play_sfx(offoff)
 		# change position depending on what a name of a variable is
-		text_box.global_position = Vector2(200, 300)
+		text_box.global_position = Vector2(560, -160)
 		offoff_talking.emit()
 	
 	text_box_tween = get_tree().create_tween().set_loops()
 	# tween animation
-	text_box_tween.tween_property(text_box, "scale",Vector2(1.01,1.01),2)
-	text_box_tween.tween_property(text_box, "scale",Vector2(.98,.98),2)
+	text_box_tween.tween_property(text_box, "scale",Vector2(1.01,1.01),0.2)
+	text_box_tween.tween_interval(1.6)
+	text_box_tween.tween_property(text_box, "scale",Vector2(.99,.99),0.2)
 	
 	text_box.display_text(dialogue_lines[current_line_index])
 	

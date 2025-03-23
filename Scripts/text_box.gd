@@ -9,8 +9,8 @@ var text = ""
 var letter_index = 0
 
 # how many seconds will pass between each letter character displayed
-var letter_time = 0.02
-var space_time = 0.03
+var letter_time = 0.0000000001
+var space_time = 0.1
 var punctuation_time = 0.01
 
 signal finished_displaying()
@@ -18,12 +18,23 @@ signal finished_displaying()
 func display_text(text_to_display: String):
 	
 	# dialogue tags
-	if text_to_display.begins_with("S: "):
+	# for Machine
+	if text_to_display.begins_with("M: "):
+		text_to_display = text_to_display.trim_prefix("M: ")
+	if text_to_display.begins_with("A: "):
+		text_to_display = text_to_display.trim_prefix("A: ")
+	# for Femme
+	elif text_to_display.begins_with("F: "):
+		text_to_display = text_to_display.trim_prefix("F: ")
+	# for Prim
+	elif text_to_display.begins_with("P: "):
+		text_to_display = text_to_display.trim_prefix("P: ")
+	# for Suave
+	elif text_to_display.begins_with("S: "):
 		text_to_display = text_to_display.trim_prefix("S: ")
-	elif text_to_display.begins_with("B: "):
-		text_to_display = text_to_display.trim_prefix("B: ")
-	elif text_to_display.begins_with("D: "):
-		text_to_display = text_to_display.trim_prefix("D: ")
+	# for OffOff
+	elif text_to_display.begins_with("O: "):
+		text_to_display = text_to_display.trim_prefix("O: ")
 	
 	text = text_to_display
 	label.text = text_to_display # label expands to the full width of the text
@@ -59,6 +70,9 @@ func _display_letter():
 			timer.start(punctuation_time)
 		" ":
 			timer.start(space_time)
+			# play a sound every time there is a space
+			var sfx_standard = ["Amari1","Amari2","Amari3"].pick_random()
+			SoundManager.play_sfx(sfx_standard)
 		_:
 			timer.start(letter_time)
 

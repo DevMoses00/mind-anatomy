@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://26jfml211o4u"
+path="res://.godot/imported/Cards Shuffle Oneshot 005.wav-17cf9844d87eb4740ecaefa4f4dd291e.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/Cards Shuffle Oneshot 005.wav"
+dest_files=["res://.godot/imported/Cards Shuffle Oneshot 005.wav-17cf9844d87eb4740ecaefa4f4dd291e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
