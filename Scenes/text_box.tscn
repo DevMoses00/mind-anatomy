@@ -1,24 +1,108 @@
-[gd_scene load_steps=5 format=3 uid="uid://dqr712f0nxwou"]
+[gd_scene load_steps=11 format=3 uid="uid://dqr712f0nxwou"]
 
 [ext_resource type="Script" path="res://Scripts/text_box.gd" id="1_q7gqu"]
-[ext_resource type="Texture2D" uid="uid://deyw0w11r0pjo" path="res://Art/Temp/text_box.png" id="2_q4p8o"]
+[ext_resource type="Texture2D" uid="uid://bcnsp07osrmhk" path="res://Art/textboxes/text_box_3.png" id="2_4ta4o"]
 [ext_resource type="FontFile" uid="uid://jthbo0qjvfyo" path="res://Fonts/Arapey-Regular.ttf" id="3_8eigo"]
+[ext_resource type="Texture2D" uid="uid://bb2vyuvbl5ddk" path="res://Art/textboxes/femme.png" id="3_oxqs1"]
+[ext_resource type="Texture2D" uid="uid://baltob8hk1aar" path="res://Art/textboxes/machine.png" id="4_6p136"]
+[ext_resource type="Texture2D" uid="uid://mllij3fwfjy3" path="res://Art/textboxes/Offoff.png" id="5_lbqgp"]
+[ext_resource type="Texture2D" uid="uid://blm5s78rgy5ng" path="res://Art/textboxes/primitive.png" id="6_ewnwv"]
+[ext_resource type="Texture2D" uid="uid://b5cg678vtp3ne" path="res://Art/textboxes/suave.png" id="7_tcqjs"]
+[ext_resource type="Texture2D" uid="uid://detakdgagdjq6" path="res://Art/textboxes/jeanne_textbox.png" id="8_egvwu"]
 
 [sub_resource type="FontVariation" id="FontVariation_uc35b"]
 base_font = ExtResource("3_8eigo")
 
-[node name="TextBox" type="MarginContainer"]
+[node name="TextBox" type="MarginContainer" node_paths=PackedStringArray("femme", "machine", "offoff", "primitive", "suave", "jeanne")]
 offset_right = 192.0
 offset_bottom = 144.0
 script = ExtResource("1_q7gqu")
+femme = NodePath("NinePatchRect/femme")
+machine = NodePath("NinePatchRect/machine")
+offoff = NodePath("NinePatchRect/offoff")
+primitive = NodePath("NinePatchRect/primitive")
+suave = NodePath("NinePatchRect/suave")
+jeanne = NodePath("NinePatchRect/jeanne")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 2
-texture = ExtResource("2_q4p8o")
-region_rect = Rect2(27, 27, 450, 450)
-patch_margin_left = 54
+texture = ExtResource("2_4ta4o")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
 patch_margin_top = 72
-patch_margin_right = 63
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="femme" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("3_oxqs1")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="machine" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("4_6p136")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="offoff" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("5_lbqgp")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="primitive" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("6_ewnwv")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="suave" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("7_tcqjs")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="jeanne" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+layout_mode = 2
+offset_right = 192.0
+offset_bottom = 144.0
+texture = ExtResource("8_egvwu")
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
 patch_margin_bottom = 63
 
 [node name="MarginContainer" type="MarginContainer" parent="."]

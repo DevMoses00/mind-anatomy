@@ -1,0 +1,205 @@
+[gd_scene load_steps=30 format=3 uid="uid://cgh8qcpygxs4p"]
+
+[ext_resource type="Script" path="res://Scripts/backgrounds.gd" id="1_05bub"]
+[ext_resource type="Script" path="res://Scripts/end.gd" id="1_o3dsg"]
+[ext_resource type="Texture2D" uid="uid://bi2lbh2knucrc" path="res://Art/background.png" id="2_5tdoq"]
+[ext_resource type="Texture2D" uid="uid://b8e27lhxdah3d" path="res://Art/Amari_7_Closed.png" id="4_aku8a"]
+[ext_resource type="Texture2D" uid="uid://0pi012xoxhop" path="res://Art/Cards/Amari_7.png" id="5_hypnm"]
+[ext_resource type="Texture2D" uid="uid://bcq0xaow3vfnc" path="res://Art/Cards/suave.png" id="6_rjiu6"]
+[ext_resource type="Texture2D" uid="uid://ceg1s0xl3h6ev" path="res://Art/Cards/Jeanne/Jeanne_7_Close.png" id="7_y4o8a"]
+[ext_resource type="Texture2D" uid="uid://dg3fpsoip273d" path="res://Art/Cards/Jeanne/Jeanne_7.png" id="8_nxt3s"]
+[ext_resource type="Texture2D" uid="uid://d1w0pltha3lsv" path="res://Art/Amari_6_Closed.png" id="9_rhear"]
+[ext_resource type="Texture2D" uid="uid://br141o4oqaivb" path="res://Art/Cards/Amari_6.png" id="10_qqurv"]
+[ext_resource type="Texture2D" uid="uid://8pw78oseybwn" path="res://Art/Cards/Jeanne/Jeanne_6_Closed.png" id="11_it4ui"]
+[ext_resource type="Texture2D" uid="uid://dytcxrkoqlpem" path="res://Art/Cards/Jeanne/Jeanne_6.png" id="12_ly62t"]
+[ext_resource type="FontFile" uid="uid://jthbo0qjvfyo" path="res://Fonts/Arapey-Regular.ttf" id="13_lib5n"]
+[ext_resource type="Texture2D" uid="uid://ceeqldye7ib1i" path="res://Resources/Amari_1.png" id="14_igmyb"]
+[ext_resource type="Texture2D" uid="uid://dxrqad1eojoy5" path="res://Resources/Primary_Black cropped.png" id="14_s1rpa"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kirch"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_aku8a")
+}, {
+"duration": 25.0,
+"texture": ExtResource("5_hypnm")
+}],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_rjiu6")
+}],
+"loop": true,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_y4o8a")
+}, {
+"duration": 25.0,
+"texture": ExtResource("8_nxt3s")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_aku8a")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xdjxm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_rhear")
+}, {
+"duration": 25.0,
+"texture": ExtResource("10_qqurv")
+}],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_it4ui")
+}, {
+"duration": 25.0,
+"texture": ExtResource("12_ly62t")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_rhear")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
+}]
+
+[sub_resource type="FontVariation" id="FontVariation_0qjpv"]
+base_font = ExtResource("13_lib5n")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_505e1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_06ctd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cty0y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gcpgu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ihnh0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5ehax"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_337l2"]
+texture = ExtResource("14_igmyb")
+modulate_color = Color(0.69, 0.69, 0.69, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kfd43"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hdqc1"]
+texture = ExtResource("14_igmyb")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0trlb"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dohjo"]
+texture = ExtResource("14_igmyb")
+
+[node name="End" type="Node2D"]
+script = ExtResource("1_o3dsg")
+
+[node name="Backgrounds" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+script = ExtResource("1_05bub")
+speed = 0.9
+
+[node name="BackgroundOne" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(-96, 0)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("2_5tdoq")
+
+[node name="BackgroundTwo" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(-2199, 0)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("2_5tdoq")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Cards" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(-8, 224)
+
+[node name="Amari_7" type="AnimatedSprite2D" parent="Cards"]
+position = Vector2(88, 40)
+rotation = 0.572839
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_kirch")
+animation = &"1"
+autoplay = "1"
+
+[node name="Amari_6" type="AnimatedSprite2D" parent="Cards"]
+position = Vector2(-112, 0)
+rotation = -0.525873
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_xdjxm")
+animation = &"1"
+autoplay = "1"
+
+[node name="Thanks" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = -520.0
+offset_top = -472.0
+offset_right = 560.0
+offset_bottom = -224.0
+theme_override_colors/default_color = Color(0.12549, 0.360784, 0.360784, 1)
+theme_override_fonts/normal_font = SubResource("FontVariation_0qjpv")
+theme_override_font_sizes/normal_font_size = 121
+text = "Thankyou For Playing"
+
+[node name="Thanks2" type="RichTextLabel" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = -848.0
+offset_top = -296.0
+offset_right = 896.0
+theme_override_colors/default_color = Color(0.12549, 0.360784, 0.360784, 1)
+theme_override_fonts/normal_font = SubResource("FontVariation_0qjpv")
+theme_override_font_sizes/normal_font_size = 106
+text = "Follow Vine Moss Games for updates on this and future VM titles"
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 496.0
+offset_top = 112.0
+offset_right = 792.0
+offset_bottom = 448.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_505e1")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_06ctd")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_cty0y")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_gcpgu")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_ihnh0")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_5ehax")
+theme_override_styles/hover = SubResource("StyleBoxTexture_337l2")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_kfd43")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_hdqc1")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_0trlb")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dohjo")
+
+[node name="VineMossLogo" type="Sprite2D" parent="."]
+position = Vector2(-624, 312)
+texture = ExtResource("14_s1rpa")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

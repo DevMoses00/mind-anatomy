@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://b5fnoqdvqyus3"]
+[gd_scene load_steps=95 format=3 uid="uid://b5fnoqdvqyus3"]
 
 [ext_resource type="Texture2D" uid="uid://bi2lbh2knucrc" path="res://Art/background.png" id="1_5yb43"]
 [ext_resource type="Script" path="res://Scripts/main.gd" id="1_fnwb0"]
@@ -7,19 +7,76 @@
 [ext_resource type="Texture2D" uid="uid://dbkonjhasnccy" path="res://Art/Cards/Amari_2.png" id="4_tu7e0"]
 [ext_resource type="Texture2D" uid="uid://662tyy035pqu" path="res://Art/Cards/Amari_3.png" id="5_c0uev"]
 [ext_resource type="Texture2D" uid="uid://c2r5qs7qcudw5" path="res://Art/Cards/machine.png" id="5_gwhhc"]
+[ext_resource type="Texture2D" uid="uid://caxmfkl5q0v3i" path="res://Art/Cards/Jeanne/Jeanne_1.png" id="5_xxm2q"]
 [ext_resource type="Texture2D" uid="uid://8qfclc5abolp" path="res://Art/Cards/Amari_4.png" id="6_yj3mm"]
 [ext_resource type="Texture2D" uid="uid://8vtu2fo2fuc1" path="res://Art/Cards/Amari_5.png" id="7_1cqa6"]
+[ext_resource type="Texture2D" uid="uid://dshhe7j03hsjo" path="res://Art/Cards/Jeanne/Jeanne_2.png" id="8_nj6xh"]
 [ext_resource type="Texture2D" uid="uid://cy68focfrg883" path="res://Art/Cards/offoff.png" id="8_tc544"]
 [ext_resource type="Texture2D" uid="uid://br141o4oqaivb" path="res://Art/Cards/Amari_6.png" id="8_v5mwg"]
 [ext_resource type="Texture2D" uid="uid://0pi012xoxhop" path="res://Art/Cards/Amari_7.png" id="9_vpp0m"]
 [ext_resource type="Texture2D" uid="uid://cx558nd42ew8y" path="res://Art/Cards/Amari_8.png" id="10_1pcuj"]
 [ext_resource type="Texture2D" uid="uid://cuak4342q60vr" path="res://Art/Cards/primitive.png" id="10_2nrh8"]
+[ext_resource type="Texture2D" uid="uid://ihn1e5xj4rgc" path="res://Art/Cards/Jeanne/Jeanne_3.png" id="10_cjtlf"]
 [ext_resource type="Texture2D" uid="uid://bcvlay4rvugwt" path="res://Art/Cards/Amari_9.png" id="11_d2ws5"]
 [ext_resource type="Texture2D" uid="uid://c8eq1n3yn25ne" path="res://Art/Cards/Amari_10.png" id="12_lxnk7"]
+[ext_resource type="Texture2D" uid="uid://d1w0pltha3lsv" path="res://Art/Amari_6_Closed.png" id="12_qwbnt"]
+[ext_resource type="Texture2D" uid="uid://domv1vdwf0cq2" path="res://Art/Cards/Jeanne/Jeanne_4.png" id="13_8of3v"]
 [ext_resource type="Texture2D" uid="uid://bcq0xaow3vfnc" path="res://Art/Cards/suave.png" id="13_r8wcq"]
 [ext_resource type="Texture2D" uid="uid://btf2garf3cblp" path="res://Art/Cards/Amari_11.png" id="13_xc50g"]
 [ext_resource type="Texture2D" uid="uid://dgu30y2grt2q2" path="res://Art/Cards/Amari_12.png" id="14_rxygv"]
+[ext_resource type="Texture2D" uid="uid://b8e27lhxdah3d" path="res://Art/Amari_7_Closed.png" id="14_u6f3s"]
+[ext_resource type="Texture2D" uid="uid://cov1bujdpa3j0" path="res://Art/Cards/Jeanne/Jeanne_5.png" id="16_vn70j"]
 [ext_resource type="Texture2D" uid="uid://bys1uhxp55jkx" path="res://Art/Cards/femme.png" id="17_2io7s"]
+[ext_resource type="Texture2D" uid="uid://b0gmkm1lklcgu" path="res://Art/Decisions/24.png" id="18_khix3"]
+[ext_resource type="Texture2D" uid="uid://8pw78oseybwn" path="res://Art/Cards/Jeanne/Jeanne_6_Closed.png" id="19_jxh8l"]
+[ext_resource type="Texture2D" uid="uid://dytcxrkoqlpem" path="res://Art/Cards/Jeanne/Jeanne_6.png" id="20_e0hob"]
+[ext_resource type="Texture2D" uid="uid://ceiu4jr6h0dnb" path="res://Art/Cards/Amari_10_Open.png" id="20_vj25v"]
+[ext_resource type="Texture2D" uid="uid://c7g0j1g4vujgh" path="res://Art/Cards/Amari_11_Open.png" id="23_g1vng"]
+[ext_resource type="Texture2D" uid="uid://ceg1s0xl3h6ev" path="res://Art/Cards/Jeanne/Jeanne_7_Close.png" id="24_qq5gx"]
+[ext_resource type="Texture2D" uid="uid://dg3fpsoip273d" path="res://Art/Cards/Jeanne/Jeanne_7.png" id="25_dqfr3"]
+[ext_resource type="Texture2D" uid="uid://ci21g4xu6wt6r" path="res://Art/Decisions/22.png" id="27_xgxfo"]
+[ext_resource type="Texture2D" uid="uid://bo8sowhre0ja8" path="res://Art/Cards/Jeanne/Jeanne_8.png" id="30_3eymg"]
+[ext_resource type="Texture2D" uid="uid://bbdjvn14cjqvu" path="res://Art/Cards/Jeanne/Jeanne_9.png" id="32_t5om7"]
+[ext_resource type="Texture2D" uid="uid://etghe0pu46uc" path="res://Art/Decisions/26.png" id="32_u654d"]
+[ext_resource type="Texture2D" uid="uid://c6ttq5ini77to" path="res://Art/Decisions/31.png" id="33_18i58"]
+[ext_resource type="Texture2D" uid="uid://ba01qurdedn50" path="res://Art/Names/1.png" id="34_sup01"]
+[ext_resource type="Texture2D" uid="uid://bm20baq5sonjk" path="res://Art/Decisions/Browse.png" id="34_vppy6"]
+[ext_resource type="Texture2D" uid="uid://dnsjosfhi658m" path="res://Art/Names/4.png" id="35_c3kq8"]
+[ext_resource type="Texture2D" uid="uid://b5mg4h6ua215e" path="res://Art/Names/2.png" id="36_o5ajr"]
+[ext_resource type="Texture2D" uid="uid://bb6yaqn5cx4bt" path="res://Art/Cards/Jeanne/Jeanne_10.png" id="36_wlsxr"]
+[ext_resource type="Texture2D" uid="uid://c72n1pg8hb0cx" path="res://Art/Cards/Jeanne/Jeanne_10_Open.png" id="37_k267t"]
+[ext_resource type="Texture2D" uid="uid://ppvyi1hv8j6p" path="res://Art/Names/5.png" id="37_ru1xl"]
+[ext_resource type="Texture2D" uid="uid://bxv86tv1fq10y" path="res://Art/Names/3.png" id="38_hq5ar"]
+[ext_resource type="Texture2D" uid="uid://ck6nfej83ba68" path="res://Art/Names/6.png" id="39_eao2u"]
+[ext_resource type="Texture2D" uid="uid://b7xcm3ndheo6p" path="res://Art/Cards/Jeanne/Jeanne_11.png" id="43_hskj0"]
+[ext_resource type="Texture2D" uid="uid://cguf1i50gn5j3" path="res://Art/Cards/Jeanne/Jeanne_11_Open.png" id="44_woq7k"]
+[ext_resource type="Texture2D" uid="uid://bnx4ilfqggq84" path="res://Art/Cards/Jeanne/Jeanne_12.png" id="49_atqkt"]
+[ext_resource type="Texture2D" uid="uid://cot3t0nlq0am0" path="res://Art/Face/1.png" id="56_sfush"]
+[ext_resource type="Texture2D" uid="uid://ca2llalxnexjv" path="res://Art/split_anim/frame_01.png" id="56_xwxmu"]
+[ext_resource type="Texture2D" uid="uid://b6g5x73y4dmbc" path="res://Art/Face/2.png" id="57_2w1wg"]
+[ext_resource type="Texture2D" uid="uid://bcivf605ot4hs" path="res://Art/split_anim/frame_02.png" id="57_nnqox"]
+[ext_resource type="Texture2D" uid="uid://ci3lpaq3x1j50" path="res://Art/split_anim/frame_03.png" id="58_p2fel"]
+[ext_resource type="Texture2D" uid="uid://chgct2dwp4bt1" path="res://Art/split_anim/frame_04.png" id="59_uamjk"]
+[ext_resource type="Texture2D" uid="uid://btq1droocvmi2" path="res://Art/split_anim/frame_05.png" id="60_wphpi"]
+[ext_resource type="Texture2D" uid="uid://b7qvevr2scrfv" path="res://Art/split_anim/frame_06.png" id="61_dc08f"]
+[ext_resource type="Texture2D" uid="uid://bmldf1tdag5ou" path="res://Art/split_anim/frame_07.png" id="62_ar4fm"]
+[ext_resource type="Texture2D" uid="uid://om3e882xb71o" path="res://Art/split_anim/frame_08.png" id="63_adxy1"]
+[ext_resource type="Texture2D" uid="uid://c4l08xrbi5uf1" path="res://Art/split_anim/frame_09.png" id="64_jcp8u"]
+[ext_resource type="Texture2D" uid="uid://qtwiiuemq0yx" path="res://Art/split_anim/frame_10.png" id="65_jbwng"]
+[ext_resource type="Texture2D" uid="uid://2had0p5uy6g5" path="res://Art/split_anim/frame_11.png" id="66_wa2xb"]
+[ext_resource type="Texture2D" uid="uid://lk2u6leuvt6s" path="res://Art/split_anim/frame_12.png" id="67_km34j"]
+[ext_resource type="Texture2D" uid="uid://dronlyhufa7x7" path="res://Art/split_anim/frame_13.png" id="68_xl0wo"]
+[ext_resource type="Texture2D" uid="uid://ju0ap023j4f3" path="res://Art/split_anim/frame_14.png" id="69_b4ion"]
+[ext_resource type="Texture2D" uid="uid://c7n0f2c2a78tr" path="res://Art/split_anim/frame_15.png" id="70_ge1hg"]
+[ext_resource type="Texture2D" uid="uid://cbx0osghfqjhs" path="res://Art/split_anim/frame_16.png" id="71_nr5js"]
+[ext_resource type="Texture2D" uid="uid://dko2te7d7o36x" path="res://Art/split_anim/frame_17.png" id="72_4eagp"]
+[ext_resource type="Texture2D" uid="uid://ouaqrumf1ikf" path="res://Art/split_anim/frame_18.png" id="73_ob2nr"]
+[ext_resource type="Texture2D" uid="uid://b1twonc66bsv3" path="res://Art/split_anim/frame_19.png" id="74_tfsjd"]
+[ext_resource type="Texture2D" uid="uid://c7wa3ekd4yl2e" path="res://Art/split_anim/frame_20.png" id="75_ojp1n"]
+[ext_resource type="Texture2D" uid="uid://cr1di18qrjfng" path="res://Art/split_anim/frame_21.png" id="76_gmgcw"]
+[ext_resource type="Texture2D" uid="uid://b6i4lqmyalong" path="res://Art/split_anim/frame_22.png" id="77_xsyy4"]
+[ext_resource type="Texture2D" uid="uid://ql8v7fjidmr0" path="res://Art/split_anim/frame_23.png" id="78_lqdri"]
+[ext_resource type="Texture2D" uid="uid://b5kiujc02184r" path="res://Art/split_anim/frame_24.png" id="79_jaugt"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_07tao"]
 animations = [{
@@ -29,6 +86,14 @@ animations = [{
 }],
 "loop": true,
 "name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xxm2q")
+}],
+"loop": true,
+"name": &"Jeanne",
 "speed": 5.0
 }]
 
@@ -49,6 +114,14 @@ animations = [{
 "loop": true,
 "name": &"2",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_nj6xh")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ejndc"]
@@ -59,6 +132,14 @@ animations = [{
 }],
 "loop": true,
 "name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_cjtlf")
+}],
+"loop": true,
+"name": &"Jeanne",
 "speed": 5.0
 }]
 
@@ -79,6 +160,14 @@ animations = [{
 "loop": true,
 "name": &"2",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_8of3v")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lfdar"]
@@ -98,16 +187,46 @@ animations = [{
 "loop": true,
 "name": &"2",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_vn70j")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_is7bm"]
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("12_qwbnt")
+}, {
+"duration": 25.0,
 "texture": ExtResource("8_v5mwg")
 }],
 "loop": true,
-"name": &"default",
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_jxh8l")
+}, {
+"duration": 25.0,
+"texture": ExtResource("20_e0hob")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_qwbnt")
+}],
+"loop": true,
+"name": &"close",
 "speed": 5.0
 }]
 
@@ -115,6 +234,9 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("14_u6f3s")
+}, {
+"duration": 25.0,
 "texture": ExtResource("9_vpp0m")
 }],
 "loop": true,
@@ -128,6 +250,25 @@ animations = [{
 "loop": true,
 "name": &"2",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_qq5gx")
+}, {
+"duration": 25.0,
+"texture": ExtResource("25_dqfr3")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_u6f3s")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4q64j"]
@@ -139,7 +280,50 @@ animations = [{
 "loop": true,
 "name": &"1",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_xgxfo")
+}],
+"loop": true,
+"name": &"Instagram",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_vppy6")
+}],
+"loop": true,
+"name": &"Internet",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_3eymg")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_khix3")
+}],
+"loop": true,
+"name": &"Lamentations",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_u654d")
+}],
+"loop": true,
+"name": &"Videos",
+"speed": 5.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fb36p"]
+size = Vector2(896, 1312)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m811a"]
 animations = [{
@@ -150,6 +334,14 @@ animations = [{
 "loop": true,
 "name": &"1",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_t5om7")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0fidb"]
@@ -157,10 +349,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("12_lxnk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_vj25v")
 }],
 "loop": true,
 "name": &"1",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -169,6 +364,17 @@ animations = [{
 "loop": true,
 "name": &"2",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_wlsxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_k267t")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 2.0
 }]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_b7to8"]
@@ -176,11 +382,60 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("13_xc50g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_g1vng")
 }],
 "loop": true,
 "name": &"1",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_xgxfo")
+}],
+"loop": true,
+"name": &"Instagram",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_vppy6")
+}],
+"loop": true,
+"name": &"Internet",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_hskj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_woq7k")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_khix3")
+}],
+"loop": true,
+"name": &"Lamentations",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_u654d")
+}],
+"loop": true,
+"name": &"Videos",
 "speed": 5.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_idjko"]
+size = Vector2(900.5, 1285)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6o5u3"]
 animations = [{
@@ -191,25 +446,178 @@ animations = [{
 "loop": true,
 "name": &"1",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_18i58")
+}],
+"loop": true,
+"name": &"Facetime",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_xgxfo")
+}],
+"loop": true,
+"name": &"Instagram",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_vppy6")
+}],
+"loop": true,
+"name": &"Internet",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_atqkt")
+}],
+"loop": true,
+"name": &"Jeanne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_khix3")
+}],
+"loop": true,
+"name": &"Lamentations",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_u654d")
+}],
+"loop": true,
+"name": &"Videos",
+"speed": 5.0
 }]
 
-[node name="Main" type="Node2D" node_paths=PackedStringArray("machine", "femme", "suave", "offoff", "primitive", "right_eye", "left_eye", "choice_one", "choice_two", "choice_three")]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_navsy"]
+size = Vector2(896, 1312)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qk36x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("56_xwxmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_nnqox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_p2fel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_uamjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_wphpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_dc08f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ar4fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_adxy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_jcp8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_jbwng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_wa2xb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_km34j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_xl0wo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_b4ion")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ge1hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_nr5js")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_4eagp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_ob2nr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_tfsjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_ojp1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_gmgcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_xsyy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_lqdri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_jaugt")
+}],
+"loop": false,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2ufvi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("56_sfush")
+}, {
+"duration": 25.0,
+"texture": ExtResource("57_2w1wg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("machine", "femme", "suave", "offoff", "primitive", "right_eye", "left_eye", "right_mouth", "left_mouth", "choice_one", "choice_two", "choice_three", "card_one", "card_two", "card_three", "card_four", "card_five", "card_six")]
 script = ExtResource("1_fnwb0")
-machine = NodePath("Amari_2")
-femme = NodePath("Amari_10")
-suave = NodePath("Amari_7")
-offoff = NodePath("Amari_4")
-primitive = NodePath("Amari_5")
-right_eye = NodePath("Amari_7")
-left_eye = NodePath("Amari_6")
-choice_one = NodePath("Amari_11")
-choice_two = NodePath("Amari_8")
-choice_three = NodePath("Amari_12")
-dialogue_key = "Opening"
+machine = NodePath("Cards/Amari_2")
+femme = NodePath("Cards/Amari_10")
+suave = NodePath("Cards/Amari_7")
+offoff = NodePath("Cards/Amari_4")
+primitive = NodePath("Cards/Amari_5")
+right_eye = NodePath("Cards/Amari_7")
+left_eye = NodePath("Cards/Amari_6")
+right_mouth = NodePath("Cards/Amari_11")
+left_mouth = NodePath("Cards/Amari_10")
+choice_one = NodePath("Cards/Amari_11")
+choice_two = NodePath("Cards/Amari_12")
+choice_three = NodePath("Cards/Amari_8")
+card_one = NodePath("Cards/Amari_1")
+card_two = NodePath("Cards/Amari_3")
+card_three = NodePath("Cards/Amari_5")
+card_four = NodePath("Cards/Amari_7")
+card_five = NodePath("Cards/Amari_9")
+card_six = NodePath("Cards/Amari_11")
+dialogue_key = "Weird"
 
 [node name="Backgrounds" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0.627451)
 script = ExtResource("1_sx0r2")
-speed = 0.9
 
 [node name="BackgroundOne" type="Sprite2D" parent="Backgrounds"]
 position = Vector2(-96, 0)
@@ -217,79 +625,199 @@ scale = Vector2(1.1, 1.1)
 texture = ExtResource("1_5yb43")
 
 [node name="BackgroundTwo" type="Sprite2D" parent="Backgrounds"]
-position = Vector2(-2198, 0)
+position = Vector2(-2199, 0)
 scale = Vector2(1.1, 1.1)
 texture = ExtResource("1_5yb43")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Amari_1" type="AnimatedSprite2D" parent="."]
+[node name="FadeNames" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+
+[node name="Amari" type="Sprite2D" parent="FadeNames"]
+position = Vector2(728, -344)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("34_sup01")
+
+[node name="Machine" type="Sprite2D" parent="FadeNames"]
+position = Vector2(728, 360)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("35_c3kq8")
+
+[node name="Femme" type="Sprite2D" parent="FadeNames"]
+position = Vector2(-736, -8.00003)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("36_o5ajr")
+
+[node name="Suave" type="Sprite2D" parent="FadeNames"]
+position = Vector2(-736, -344)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("37_ru1xl")
+
+[node name="Primitive" type="Sprite2D" parent="FadeNames"]
+position = Vector2(728, -1.2207e-06)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("38_hq5ar")
+
+[node name="Offoff" type="Sprite2D" parent="FadeNames"]
+position = Vector2(-736, 368)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("39_eao2u")
+
+[node name="Names" type="Node2D" parent="."]
+visible = false
+
+[node name="Amari" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(728, -344)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("34_sup01")
+
+[node name="Machine" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(728, 360)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("35_c3kq8")
+
+[node name="Femme" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(-736, -8.00003)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("36_o5ajr")
+
+[node name="Suave" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(-736, -344)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("37_ru1xl")
+
+[node name="Primitive" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(728, -1.2207e-06)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("38_hq5ar")
+
+[node name="Offoff" type="Sprite2D" parent="Names"]
+visible = false
+position = Vector2(-736, 368)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("39_eao2u")
+
+[node name="Cards" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+
+[node name="Amari_1" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-393, -360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_07tao")
 animation = &"1"
 
-[node name="Amari_2" type="AnimatedSprite2D" parent="."]
+[node name="Amari_2" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-132, -360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_05wfx")
 animation = &"1"
 
-[node name="Amari_3" type="AnimatedSprite2D" parent="."]
+[node name="Amari_3" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(130, -360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_ejndc")
 animation = &"1"
 
-[node name="Amari_4" type="AnimatedSprite2D" parent="."]
+[node name="Amari_4" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(390, -360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_1jaka")
 animation = &"1"
 
-[node name="Amari_5" type="AnimatedSprite2D" parent="."]
+[node name="Amari_5" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-393, 0)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_lfdar")
 animation = &"1"
 
-[node name="Amari_6" type="AnimatedSprite2D" parent="."]
+[node name="Amari_6" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-132, 0)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_is7bm")
+animation = &"1"
+autoplay = "1"
 
-[node name="Amari_7" type="AnimatedSprite2D" parent="."]
+[node name="Amari_7" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(130, 0)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_ld81c")
 animation = &"1"
+autoplay = "1"
 
-[node name="Amari_8" type="AnimatedSprite2D" parent="."]
+[node name="Amari_8" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(392, 0)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_4q64j")
 animation = &"1"
 
-[node name="Amari_9" type="AnimatedSprite2D" parent="."]
+[node name="ChoiceArea3" type="Area2D" parent="Cards/Amari_8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cards/Amari_8/ChoiceArea3" groups=["collisions"]]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_fb36p")
+disabled = true
+
+[node name="Amari_9" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-393, 360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_m811a")
 animation = &"1"
 
-[node name="Amari_10" type="AnimatedSprite2D" parent="."]
+[node name="Amari_10" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(-132, 360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_0fidb")
 animation = &"1"
 
-[node name="Amari_11" type="AnimatedSprite2D" parent="."]
+[node name="Amari_11" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(130, 360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_b7to8")
 animation = &"1"
 
-[node name="Amari_12" type="AnimatedSprite2D" parent="."]
+[node name="ChoiceArea" type="Area2D" parent="Cards/Amari_11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cards/Amari_11/ChoiceArea" groups=["collisions"]]
+position = Vector2(-8, 0)
+shape = SubResource("RectangleShape2D_idjko")
+disabled = true
+
+[node name="Amari_12" type="AnimatedSprite2D" parent="Cards"]
 position = Vector2(392, 360)
 scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_6o5u3")
 animation = &"1"
+
+[node name="ChoiceArea2" type="Area2D" parent="Cards/Amari_12"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cards/Amari_12/ChoiceArea2" groups=["collisions"]]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_navsy")
+disabled = true
+
+[node name="Splitanim" type="AnimatedSprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+sprite_frames = SubResource("SpriteFrames_qk36x")
+
+[node name="Whole" type="AnimatedSprite2D" parent="."]
+modulate = Color(0.75, 0.735, 0.735, 1)
+position = Vector2(-16, 0)
+sprite_frames = SubResource("SpriteFrames_2ufvi")
+autoplay = "default"
+frame_progress = 0.786385
+
+[connection signal="input_event" from="Cards/Amari_8/ChoiceArea3" to="." method="_on_choice_area_3_input_event"]
+[connection signal="mouse_entered" from="Cards/Amari_8/ChoiceArea3" to="." method="_on_choice_area_3_mouse_entered"]
+[connection signal="mouse_exited" from="Cards/Amari_8/ChoiceArea3" to="." method="_on_choice_area_3_mouse_exited"]
+[connection signal="input_event" from="Cards/Amari_11/ChoiceArea" to="." method="_on_choice_area_input_event"]
+[connection signal="mouse_entered" from="Cards/Amari_11/ChoiceArea" to="." method="_on_choice_area_mouse_entered"]
+[connection signal="mouse_exited" from="Cards/Amari_11/ChoiceArea" to="." method="_on_choice_area_mouse_exited"]
+[connection signal="input_event" from="Cards/Amari_12/ChoiceArea2" to="." method="_on_choice_area_2_input_event"]
+[connection signal="mouse_entered" from="Cards/Amari_12/ChoiceArea2" to="." method="_on_choice_area_2_mouse_entered"]
+[connection signal="mouse_exited" from="Cards/Amari_12/ChoiceArea2" to="." method="_on_choice_area_2_mouse_exited"]

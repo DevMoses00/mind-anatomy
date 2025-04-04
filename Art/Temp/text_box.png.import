@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/text_box.png-831856f232eb5e7ca3eff5e1edd0c169
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

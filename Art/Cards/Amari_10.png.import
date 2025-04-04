@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Amari_10.png-c9daf0e5d3ffb14eab8096c5fefffd2a
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

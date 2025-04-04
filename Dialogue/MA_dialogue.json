@@ -1,4 +1,9 @@
 {
+    "Weird":[
+
+        "A: Was I weird today?"
+    ],
+
     "Opening":[
 
         "FMachine",
@@ -15,19 +20,31 @@
         
         "M: SYSTEMS INITIALIZING...",
         
-        "M: ENACTING PROTOCOL 3-6 ...",
+        "M: ENACTING PROTOCOL 3-6...",
         
-        "A: None of this means anything what are we doing.",
+        "A: None of this means anything. What are we doing.",
         
-        "M: ACCESSING MEMORY ADDRESS, PLEASE HOLD...",
+        "M: ACCESSING MEMORY ADDRESS...",
         
-        "A: My brain telling me to 'please hold' you're kidding me.",
+        "M: PLEASE HOLD...",
+        
+        "Time: 2",
+        
+        "A: My brain is telling me to please hold.",
+        
+        "A: You have got to be kidding me.",
         
         "M: MEMORY ADDRESS UPLOADED. SYSTEMS COMPLETE.",
         
         "M: BUILD TIME: 02:00 GMT -4",
         
         "M: WELCOME TO YOUR MIND ANATOMY, AMARI MALLORY...",
+
+        "Welcome:",
+
+        "Time: 3",
+        
+        "AEyeOpen:",
         
         "A: Great, thanks....",
         
@@ -35,13 +52,1539 @@
         
         "FSuave", 
         
-        "S: Good God, MACHINE was excessive tonight, wouldn't you say so Amari?",
+        "S: Good God, MACHINE is so excessive tonight, wouldn't you say so Amari?",
         
-        "A: MACHINE is like this all the time. It's irritating. I can't control it.",
+        "A: MACHINE is like this every night.",
         
-        "S: For a fake programmable operator, it certainly has an affinity for the spotlight in a particularly human manner."
+        "A: My brain making him is the stupidest thing it could have done.",
+        
+        "A: It's irritating. I can't control it.",
+        
+        "S: For a fake programmable operator, it certainly has an affinity for the spotlight in a particularly human manner.",
+        
+        "FMachine:",
+        
+        "M: IMAGE SET UPLOAD: NAKED ON STAGE.", 
+        
+        "M: KEY TARGET IN THE CROWD: JEANNE FROM DINNER.",
+        
+        "M: AMPLIFY AND FIRE FEELING CODE: EMBARASSED.",
+        
+        "FMachine:",
+        
+        "AEyeClose:",
+        
+        "A: Whyyyyyyyy.",
+        
+        "S: Terribly sorry Amari. I can't help but feel to blame for that one.",
+        
+        "S: I often forget MACHINE's tendency for vile pettiness.",
+        
+        "FFemme.",
+        
+        "F: Ouf! Why are you thinking about standing naked on stage?",
+        
+        "F: The night past, it was naked in a restaurant.",
+        
+        "S: What's next? Naked at the park? I presume?",
+        
+        "F: Quel imbécile! Stop your nonsense speaking Suave.",
+        
+        "AEyeOpen:",
+        
+        "A: It's MACHINE again...",
+        
+        "F: Amari, what is the matter?",
+        
+        "A: I can't stop freaking myself out about dinner.",
+        
+        "F: C'est normal, but you had a good time tonight, no?",
+        
+        "A: Yeah it was a really great night.",
+        
+        "A: Jeanne was lovely.",
+        
+        "S: She seemed to be rather fond of you.",
+        
+        "S: She smiled at the right moments, and you reciprocated well.",
+        
+        "S: My charm has rubbed off on you, if I do say so myself.",
+        
+        "AEyeClose:",
+        
+        "A: Right, I couldn't have done it without you...",
+        
+        "F: How about the conversations? Did you like what she had to say?",
+        
+        "AEyeOpen:",
+        
+        "A: Yeah, we flowed from topic to topic really well...",
+        
+        "A: The fact she admitted to eating four funnel cakes in a row was a highlight.",
+        
+        "FPrim:",
+        
+        "P: FUNNEL FUNNY FUN",
+        
+        "P: Fun with regards to uncomfortable admittances is a joyous treasure to acknowledge and reflect on fondly.",
+        
+        "FPrim:", 
+        
+        "S: Ah, Prim put it so aptly. What a rare moment you've enjoyed with a lovely lady, no?",
+        
+        "S: To think a week prior we reveled in the fact you met her at the Open Market.",
+        
+        "F: Ah oui! It was such a sight fantastique.",
+        
+        "FFemme:",
+        
+        "FMachine:",
+        
+        "M: IMAGE SET UPLOAD: OUTDOOR MARKET.",
+        
+        "M: KEY TARGET: JEANNE FROM DINNER.",
+        
+        "M: AMPLIFY AND FIRE FEELING CODE: MILDLY EUPHORIC.",
+
+        "FMachine:",
+        
+        "S: She's so dashing. Quite a light spirit, yet strong-willed.",
+        
+        "A: I can't believe she would walk up to me and say hello.",
+
+        "A: Especially when I was holding tangerines, of all things.",
+        
+        "S: I'm in disbelief myself, I wouldn't label you as approachable.",
+        
+        "A: What kind of maniac do you have to be...",
+        
+        "A: To start a conversation with a stranger...",
+        
+        "A: You know what I mean?",
+        
+        "S: A loose screw or two is salvageable. Perhaps she has a very good reason behind talking to you in the first place.",
+        
+        "S: Like a devastating breakup, minutes prior to your encounter.",
+        
+        "S: And dulling the pain with immediate effect by talking to the closest man to her.",
+        
+        "S: Do you recall if she looked defeated as she saw you?",
+        
+        "A: No, I doubt she had anything happen to her as dramatic as that.",
+        
+        "FSuave:",
+        
+        "FOff:",
+
+        "AEyeClose",
+        
+        "O: Dramatic? My ears ring with glee at the word! Its trumpets flourishing above the castle walls to me.",
+        
+        "O: Nectar dripping onto my naïve palette, as I salivate and pucker all at once.",
+        
+        "O: The soft caress from a longing lover...",
+        
+        "AEyeOpen:",
+        
+        "A: Hi... Off-Off-Broadway.",
+        
+        "A: I don't think I need you right now.",
+        
+        "O: Oh! Um... I wasn't summoned? I felt pulled to the surface of your mind, like a diver gasping for air.",
+        
+        "A: No, I misspoke. You can go back to whatever you were doing.",
+        
+        "O: Ah a forgivable misspeak, my conscious and heart are interlocked, entwined in my thoughts for you!",
+        
+        "Time: 3",
+        
+        "AEyeClose:",
+        
+        "A: Okay, thanks. Bye.",
+        
+        "Time: 1",
+        
+        "FOff:",
+        
+        "Time: 1",
+
+        "FSuave:",
+        
+        "S: Has he left?",
+
+        "AEyeOpen:",
+        
+        "A: Yup, I told him to go.",
+
+        "S: Thank the heavens. O-O-B has been doing a number on my nerves.",
+        
+        "S: You never explained why your mind manifested him into existence.",
+        
+        "A: I have explained it. You actually ask this every time, Suave.",
+        
+        "A: I watched Macbeth once when I was 12.",
+        
+        "AEyeClose:",
+        
+        "A: And now I'm ruined forever.",
+        
+        "AEyeOpen:",
+        
+        "S: Ah, how theater can leave irreparable stains on your psyche, isn't it so?",
+        
+        "S: Damaging to the core.",
+        
+        "Time: 2",
+        
+        "S: Anywho, what was the problem?",
+        
+        "AEyeClose.",
+        
+        "A: My date with Jeanne!",
+        
+        "A: I'm worried I messed it up.",
+        
+        "S: Ah right, yes! Pardon, you haven't messed anything up.",
+        
+        "A: Okay... but what if I did.",
+        
+        "S: I reckon we wouldn't find out by going back and forth, now would we?",
+        
+        "AEyeOpen:",
+        
+        "A: So... I should call her you think?",
+        
+        "S: Heavens no!",
+        
+        "S: Something even better than that, we distract ourselves!",
+        
+        "A: You're kidding... that's all you got?",
+        
+        "S: MACHINE, let's get this show on the road ol' pal.",
+        
+        "S: Time to make some choices, now.",
+        
+        "FSuave:",
+        
+        "FMachine:", 
+        
+        "M: SET PARAMETER TO VAR...",
+
+        "AEyeClose",
+        
+        "M: KEY: PHONE DRIVERS.",
+        
+        "A: This is so stupid.",
+        
+        "AEyeOpen",
+
+        "M: LOADING KERNEL...",
+        
+        "M: ACCESSING DECISION ADDRESS...",
+        
+        "M: DECISION ADDRESS UPLOADED.",
+        
+        "M: PLEASE PICK ONE."
     ],
 
+    "Instagram":[
+        "M: DECISION CHOSEN: STALK JEANNE'S INSTAGRAM",
+
+        "AEyeClose",
+        
+        "A: Well don't say I'm stalking her!",
+        
+        "AEyeOpen",
+
+        "M: KEY PHRASE ADDED: NOT STALKING.",
+
+        "M: DEFINED AS: STALKING BUT IN DENIAL",
+        
+        "FMachine",
+        
+        "A: Okay hold up. Everybody looks through their date's photos.",
+        
+        "Time:2",
+        
+        "A: Right? Everybody does it?",
+        
+        "Time: 2",
+        
+        "AEyeClose",
+        
+        "A: Oh so now my brain wants to be quiet...",
+        
+        "FSuave.",
+        
+        "S: Hm? Oh sorry Amari, I had a bit of a preoccupation.",
+
+        "AEyeOpen",
+        
+        "S: You know how it goes...",
+        
+        "S: Erhm... planning taxes and the like...",
+        
+        "Time: 1", 
+        
+        "S: Anywho, are you stalking Jeanne's Instagram yet?",
+        
+        "AEyeClose",
+        
+        "A: ...okay yes, I am now.",
+        
+        "AEyeOpen",
+        
+        "S: Ah impeccable! Now what do we have here...",
+        
+        "S: Ha! Jeannebean is a rather amusing username.",
+        
+        "S: Do you suspect people in real life call her that?",
+        
+        "A: No clue, I didn't really bring up her username over dinner.",
+        
+        "S: I don't see why you wouldn't! It sounds like the perfect opportunity to me.",
+        
+        "S: Beans? Food? Am I the only one making the rather obvious connection here?",
+        
+        "FFemme",
+        
+        "F: Ouf! Suave you are being of no help.",
+        
+        "F: Let me take over, shoo shoo!", 
+        
+        "S: Hm well alright then, I'm rather busy anyway.",
+        
+        "S: All the food talk leaves me rather peckish.",
+        
+        "S: So I'll return to my spaceous abode.",
+        
+        "S: And to my... to my taxes.", 
+        
+        "S: 'Bawn chance' or however Femme puts it.",
+        
+        "FSuave",
+        
+        "AEyeClose", 
+        
+        "AEyeOpen", 
+        
+        "F: Ah bon! OK let's look through Miss Jeanne's photographs, shall we?",
+        
+        "Time: 2", 
+        
+        "F: Ah so in this most recent photo... she is skating on ice?",
+        
+        "A: Yeah... she apparently goes to the rink nearby once or twice a week.", 
+        
+        "A: Says she's getting really good at it. Fulflling a dream childhood hobby she called it.",
+        
+        "F: Ah trés bien. A connected soul at heart with baby Jeanne.",
+        
+        "F: I am reminded she is a very pretty lady, her curls are merveilleux.",
+        
+        "A: Yeah. They're stunning honestly.",
+        
+        "F: Tucked up in a hat too while she is skating!",
+        
+        "A: It's surprising, right?", 
+        
+        "F: Et j'adore her purple coat! You picked a fashionable one, Amari.", 
+        
+        "A: I uh... well thanks Ms. Compatissante.", 
+        
+        "FMachine.", 
+        
+        "M: IMAGE SET UPLOAD: JEANNE SKATING.", 
+        
+        "M: AMPLIFY AND FIRE FEELING CODE: UNDEFINED DREAMINESS.",
+        
+        "A: Yeah... she's really cool...",
+        
+        "FMachine.",
+        
+        "F: Hmm hmm, mon beau! Let's scroll a bit, oui?",
+        
+        "Time: 1", 
+        
+        "F: Here we have lovely Jeanne in professional attire?", 
+        
+        "F: A rose suit jacket with stiching, mon coeur!",
+        
+        "F: She is a marketer, right?", 
+        
+        "A: A mix of PR and copyediting is what she said.", 
+        
+        "F: And that means...?",
+        
+        "A: I couldn't tell you, or myself, or - whatever.",
+        
+        "A: But she mentioned that she attends these big creative conferences every couple of months.",
+        
+        "A: She calls it a vacation, but she's running around trying to meet new people and get new leads for her company.",
+        
+        "A: She's always on the go.", 
+        
+        "A: Which is why I'm wondering how she has time to go on a date with me.",
+        
+        "F: Ah! Don't speak like that, mon beau! She made time, that is the reality.",
+        
+        "F: Busy people still crave love! Tu crois pas?",
+        
+        "F: She is looking for someone, how you say.",
+        
+        "F: To make the trip back home something to look forward to?",
+        
+        "FMachine:",
+        
+        "M: BLUSH IGNITIONS ON.", 
+        
+        "FMachine:", 
+        
+        "AEyeClose", 
+        
+        "A: Ah... maybe I don't know...",
+        
+        "AEyeOpen", 
+        
+        "F: Oh mon Dieu! She is at the beach in this one.",
+        
+        "A: Yes. She's at the beach with a bunch of people who I'd guess are her friends.",
+        
+        "F: But you see her in the photo, oui?",
+        
+        "A: Yes I see her in the photo.",
+        
+        "Time: 2",
+        
+        "F: ...do you see her bikini?",
+        
+        "AEyeClose",
+        
+        "A: It's a very normal thing to wear at the beach...",
+        
+        "AEyeOpen",
+        
+        "F: Of course! Mais...",
+        
+        "F: C'est une femme bombasse...",
+        
+        "A: Ms. Compatissante!!",
+        
+        "FMachine", 
+        
+        "M: IMAGE SET UPLOAD: JEANNE IN BIKINI.",
+        
+        "M: KEY WORDS: HOT, STUNNING, ATTRACTIVE.",
+        
+        "M: AMPLIFY AND FIRE FEELING CODES: SEXUAL GUILT.",
+        
+        "FMachine.", 
+        
+        "AEyeClose",
+        
+        "A: For crying out loud...." ,
+        
+        "F: Oops! I think that is my fault, mon beau.",
+        
+        "F: Mais, there is nothing wrong with being attracted to this lady you like.",
+        
+        "F: She must also be attracted to you too, oui?",
+        
+        "F: If she gave you her personal photo library.",
+        
+        "F: That includes pictures like these!",
+        
+        "A: Well... it doesn't work like that exactly.",
+
+        "AEyeOpen",
+
+        "A: She gave me her Instagram because it's the easiest thing to give when meeting people.",
+
+        "A: Strangers share Instagrams all the time, and most the time...",
+
+        "FFemme:",
+
+        "A: There's no intention to actually talk to the person."
+        
+    ],
+
+    "Videos":[ 
+        
+    "M: DECISION CHOSEN: WATCH RANDOM VIDEOS.",
+
+    "M: OBJECTIVE: FALL ASLEEP.",
+    
+    "A: If there's one thing that can get my mind off her, it's random Youtube essays...",
+    
+    "M: ANALYZING LIKELIHOOD OF SUCCESS...",
+    
+    "M: RESULTS: 24.3% CHANCE OF SLEEP.",
+    
+    "AEyeClose",
+    
+    "A: MACHINE, all you do is make stuff up.",
+    
+    "FMachine",
+    
+    "FSuave", 
+    
+    "S: Ah here we are, there's nothing quite like falling asleep to what the online community has to offer.",
+    
+    "S: Wouldn't you agree, Amari?",
+    
+    "A: Nothing more I can ask for than a 20-minute life-draining docu-episode about why Neanderthals had bigger heads than us.",
+    
+    "S: Oh yes, yes that is a delightful one! I'm quite partial to house garden tours.",
+    
+    "S: Have you heard of the star magnolias?",
+    
+    "AEyeOpen:",
+    
+    "A: I have Suave, believe it or not.",
+    
+    "A: But please, go ahead and remind me.",
+    
+    "S: Well, it's one of the earliest blooming magnolias, of Japanese origin.",
+    
+    "S: And these star-studded plants usually extend themselves from 15 to 20 feet high, if you can imagine.",
+    
+    "S: And this here is my favorite fact...",
+    
+    "S: The tree bark is quite smooth, maintaining smoothness as it grows into a full sized tree.",
+    
+    "S: Let me ask you, Amari. Would you have known that any other way if not from a Youtube essay?",
+    
+    "A: A tree bark's smoothness never crossed my mind in all my life on this planet.",
+    
+    "A: Was never really curious about tree bark to begin with either.",
+    
+    "A: But in all honesty... I'm glad I know that now.",
+    
+    "A: I could share fun facts like that with Jeanne, you know?",
+    
+    "A: If we somehow manage to go on another date, I could whip out a bunch of useless information.",
+    
+    "S: Ah! You would look well-informed about the world, Amari.",
+    
+    "S: I know the ladies fancy a knowledgeable gent.",
+    
+    "S: A trim-cut suit, a glass of your finest red...", 
+    
+    "FFemme:", 
+    
+    "F: And a sign that says 'I listened to an imbécile that tells me about plants.'", 
+    
+    "F: Ouf Suave, Amari will never fall asleep if you continue on and on.",
+    
+    "F: Must MACHINE remind us?",
+    
+    "FMachine:",
+    
+    "M: OBJECTIVE: FALL ASLEEP.",
+    
+    "M: ANALYZING LIKELIHOOD OF SUCCESS...",
+    
+    "M: RESULTS: 10.6% CHANCE OF SLEEP.",
+    
+    "AEyeClose",
+    
+    "A: I'm pretty sure that percentage dropped since we started.", 
+    
+    "F: Bien sûr, so pick a video mon beau and try and get to sleep.", 
+    
+    "FMachine:",
+    
+    "FFemme:",
+    
+    "FSuave:",
+    
+    "AEyeOpen",
+    
+    "A: Right, let's see what's on here.",
+    
+    "Time: 3", 
+    
+    "A: 'How to run a sub 20 5k...'",
+    
+    "A: No way I'm watching that right now.",
+
+    "Time:1",
+    
+    "A: 'The 10 best basketball trickshots of the week...'",
+    
+    "Time: 1",
+    
+    "A: That might be too interesting to help me fall asleep...",
+
+    "Time: 1",
+    
+    "A: 'Which is better: Jam or Jelly?'",
+    
+    "Time: 1",
+    
+    "AEyeClose",
+    
+    "A: Also too interesting...", 
+    
+    "AEyeOpen",
+    
+    "FMachine:",
+    
+    "M: IMAGE SET UPLOAD: SKELETON SITTING ON THE FLOOR.", 
+    
+    "M: IMAGE DEFINE: SUBJECT IS TAKING TOO LONG.", 
+    
+    "AEyeClose", 
+    
+    "A: Oh come on you're not seriously rushing me right now MACHINE.", 
+    
+    "FMachine",
+    
+    "AEyeOpen", 
+    
+    "A: What about this - 'The best of British theatre compilation.'",
+    
+    "FOff",
+    
+    "O: HAVE MY EARS TRICKED ME?",
+    
+    "O: OR HAS THE SEA SHARED WAVES OF SONGS SO SOOTHING?",
+    
+    "A: No Off-Off...",
+    
+    "AEyeClose", 
+    
+    "A: The sea has not done... any of that.",
+    
+    "AEyeOpen.",
+    
+    "A: You can go back, now.",
+    
+    "O: My mind must be playing cruel tricks... alas I will wait in the wings for you!",
+    
+    "FOff:",
+    
+    "AEyeClose.",
+    
+    "A: My mind is always playing the cruelest tricks..."
+
+    ],
+
+    "Lamentations":[
+        "M: DECISION CHOSEN: LAMENT POETICALLY.",
+
+    "A: I'm not entirely sure what this means.",
+
+    "M: INSTALLING LAMENT PACK.", 
+
+    "M: KEY TARGET: OFF-OFF-BROADWAY.",
+
+    "AEyeClose",
+
+    "A: Wait, no... MACHINE what are you talking about?",
+
+    "A: Off-Off is involved here??",
+
+    "FSuave:",
+
+    "S: Ah, I fear this was a poor choice on your end.", 
+
+    "A: No kidding?! Why was that even an option?",
+
+    "FFemme:",
+
+    "F: Ah poor beau, it is an option because you are the one who thought it.",
+
+    "S: The way the biscuit breaks, my dear Amari.",
+
+    "A: But... but can't I just not 'poetically lament'?",
+
+    "A: Like I'll just stop thinking it.",
+
+    "Time: 2",
+
+    "S: Stop... you want your mind to stop thinking...",
+
+    "S: Once it has started...", 
+
+    "Time: 2",
+
+    "S: I fear laughing here would be a great offense.",
+
+    "A: No no... I know what I said was stupid.",
+
+    "S: I wouldn't call it that, certainly not.", 
+
+    "S: Your words are moreso desperate foolishness.", 
+
+    "AEyeClose", 
+
+    "A: Yep. Thanks Suave.",
+
+    "S: Now, what Off-Off-Broadway is about to come in with is stupid.",
+
+    "S: The kind of stupid I do not wish to stay for, so I shall run along.", 
+
+    "F: Ouf, I do not want to see him either...", 
+
+    "F: Bonne chance mon beau! We will have a sense when O-O-B est fini.", 
+
+    "FSuave:", 
+
+    "FFemme:", 
+
+    "A: The voices in my head are all so... so... helpful." ,
+
+    "M: COMPLIMENT ACCEPTED.",
+
+    "M: DO YOU WISH TO PROCEED?",
+
+    "AEyeOpen", 
+
+    "A: No? Can I go ahead and say no I don't wish to proceed?",
+
+    "M: PROCEEDING. INSTALLATION COMPLETE.",
+
+    "AEyeClose",
+
+    "A: Right, why did I fall for that...",
+
+    "M: ACTIVATING SLEEP MODE... GOODBYE." ,
+
+    "FMachine",
+
+    "A: Really? Sleep mode?",
+
+    "A: I wish I could sleep...",
+
+    "FOff",
+
+    "O: Oh! If only sleep chased us into to the night, rather it the other way around!",
+
+    "O: Our slumber evades us like pond reflections... always in my sight yet never in my grasp!", 
+
+    "AEyeOpen:",
+
+    "A: Off-Off... Hi again.",
+
+    "O: Oh my dearest Amari, my heart is splintered on your behalf.",
+
+    "AEyeClose",
+
+    "A: Oh... that's... yeah... why?",
+
+    "O: Isn't it obvious? Sorrow takes flight on the heels of Hermes, whereas joy resembles the visage of the dawdling Procrastinus...", 
+
+    "Time: 2", 
+
+    "A: Did you want to explain what you mean by that...",
+
+    "O: Oh if seconds were as grains of sand in the dunes of --", 
+
+    "A: Can you say it quickly Off-Off, please?",
+
+    "A: I'm suddenly, not feeling too well...",
+
+    "A: ...suffering from multiple regrets, all at once.",
+
+    "O: Oh! The wounds of your date with Lady Jeanne have festered! I fear I am too late.",
+
+    "AEyeOpen",
+
+    "A: Jeanne? What are you talking about?", 
+
+    "O: The cruelness in her heart to break your soul! She feigns laughter right at your face!", 
+
+    "A: My soul? No, she was laughing at the jokes we were telling each other.",
+
+    "O: Oh if it were true!! Your brave heart fights valiantly in the face of 1,000 blood sky arrows...",
+
+    "O: As Jeanne's affect brutally commands her archers throughout the night!",
+
+    "A: Right. You're saying you could tell she was off tonight?",
+
+    "O: Oh I fear it was not a question of telling, but of witnessing.", 
+
+    "O: Darting her eyes away after a every misstep in conversation.",
+
+    "O: A layman, upon gazing in her direction, would mistaken her as a pigeon scanning her surroundings...",
+
+    "A: She wasn't darting her eyes away. It's normal to look away, right?",
+
+    "O: ...or in a malicious sense, she is a flogger, relishing in her duty to torture to weak minded men she finds in the wild.",
+
+    "O: She practically flayed you in front of a timid audience.", 
+
+    "O: Each disinterested snort a knife ready to make orange rinds of you.",
+
+    "AEyeClose", 
+
+    "A: What the actual hell...", 
+
+    "O: Oh you're a proper victim, if I had the capacity for tears...",
+
+    "O: Droughts and deserts would be a figment of the imagination.",
+
+    "FFemme:", 
+
+    "F: Ta guele! That is enough of that, Monsieur Broadway.",
+
+    "F: You are making fear out of nothing! Our poor beau Amari needs reassurance.",
+
+    "F: Not lies.", 
+
+    "O: You wound me with your words my dear lady.",
+
+    "O: No lies fall on my tongue. I am merely shielding our mutual from the acts of devilry.", 
+
+    "F: Devilry? You are a total imbécile. Amari and the mademoiselle had a lovely time.",
+
+    "F: Our beau says so himself.",
+
+    "O: Words are weeds when actions are in plain sight. This Jeanne will match our friend's open embrace with daggers.",
+
+    "F: If only I had a dagger to throw at you, Monsieur Broadway...",
+
+    "A: If only I hadn't given her my Instagram...",
+
+    "O: Agh! The words sear my delicate ears!",
+
+    "AEyeOpen:", 
+
+    "O: What have you to do with that social contraption?",
+
+    "A: You mean... Instagram?",
+
+    "O: Ugh I beg you not to repeat the word and the titan weight it carries.", 
+
+    "F: Oh mon dieu...",
+
+    "FFemme:", 
+
+    "O: An app that rips and shreds away true love.", 
+
+    "O: Where is the uncertainty that we so crave?",
+
+    "O: The painstaking passage of time when we sit by our bedside and await a letter from a lover?",
+
+    "O: It is unknown to us whether she is well or ill, jovial or gloomy, well-mannered...",
+
+    "O: ... or no longer your lover and whisked away by a jaunty man...",
+
+    "O: A scoundrel with a decent education but not nearly as much as he touts...",
+
+    "O: And his investment plan, as if your lover prefers a man decades her senior with a waning will to live!",
+
+    "O: And he dresses poorly, for goodness sake!!",
+
+    "Time: 3",
+
+    "AEyeClose:",
+
+    "A: I feel like I'm uncovering a lot of deep-seated insecurities right now that I'm not ready to deal with.",
+
+    "FOff:",
+
+    "A: Let's put a pin on this Off-Off."
+    ],
+
+    "Internet":[
+
+        "M: DECISION CHOSEN AND ACTIVATED: INTERNET ROULETTE",
+
+        "A: Internet Roulette?",
+
+        "AEyeClose", 
+
+        "A: Stop trying to turn everything into a game show, MACHINE.", 
+
+        "FMachine",
+
+        "A: I still think about the Meal or No Meal idea from a couple weeks ago.", 
+
+        "A: Funny premise, disastrous for my body image.", 
+
+        "FPrimitive:", 
+
+        "P: PREMISE PRUMISE PROMISE", 
+
+        "AEyeOpen", 
+
+        "P: Promise not only your internal manifestations but your self as an individual to not partake in disruptive and maligned food behaviors for improved body perceptions or, more severely, humor.",
+
+        "FPrimitive",
+
+        "A: I promise, Prim. I'm unwell in a lot of ways, but knowing that eating right...",
+
+        "A: And eating restrictive, are not the same.", 
+
+        "FSuave", 
+
+        "S: I couldn't have said it any better myself. Fueling the brain with food is of the utmost importance!",
+
+        "S: In fact, perhaps it would be beneficial if we took to the interwebs in search for the best recipes.", 
+
+        "A: Yeah, I could try cooking something this week. Might be fun.", 
+
+        "A: Jeanne mentioned over dinner how she was experimenting with vegetarianism.",
+
+        "A: After I asked her why she ordered the mushroom cauliflower Gnocchi...",
+
+        "AEyeClose", 
+
+        "A: And why did I ask her that, you ask?",
+
+        "S: I didn't ask, though I presume this is one of your little rhetorical statments.",
+
+        "AEyeOpen",
+
+        "A: I did because, a tiny sliver of me...",
+
+        "A: Is extremely judgemental when it comes to people saying...",
+
+        "A: They're 'experimenting with vegetarianism.'",
+
+        "FMachine:",
+
+        "M: AMPLIFY AND FIRE FEELING CODE: GUILT", 
+
+        "FMachine:", 
+
+        "AEyeClose", 
+
+        "A: Ugh, the thing is, I do feel like I should be guilty...",
+
+        "A: Why do I get so hung up on people saying stuff like that?", 
+
+        "AEyeOpen",
+
+        "A: It's not like it affects me at all.",
+
+        "S: I'm rather stumped by it too...",
+
+        "S: Perhaps we search that on the interwebs instead?",
+
+        "A: That feels like such a pathetic thing to do right now.",
+
+        "A: 'Hey Google, how come I get annoyed when people are trying to save the planet and become vegetarians.'", 
+
+        "A: And follow up question...",
+
+        "AEyeClose",
+
+        "A: 'Why am I a shitty person?'",
+
+        "FFemme:", 
+
+        "F: Ah no pour beau, why are you being bad to yourself?",
+
+        "F: That is too extreme. You are just being human, oui?",
+
+        "AEyeOpen", 
+
+        "A: I don't want to be that kind of human, especially in front of someone I really like too.",
+
+        "A: I doubt Jeanne took my question negatively.", 
+
+        "A: I mean if she did, she managed to not look hurt by it.", 
+
+        "AEyeClose", 
+
+        "A: Ah crap, what if I was hurtful for no reason by questioning her decisions?", 
+
+        "FMachine:", 
+
+        "M: AMPLIFY AND FIRE FEELING CODE: EXCESSIVE GUILT", 
+
+        "FMachine:", 
+
+        "A: Hhhhhhhghhhhhhh...",
+
+        "F: Mon beau, you are making something out of nothing.",
+
+        "S: I agree, this is way over the top. The evening went so well!",
+
+        "AEyeOpen",
+
+        "S: You treated her like the respectable gentleman I trained you to be.", 
+
+        "S: If you didn't have me... heaven knows how it would've gone.",
+
+        "S: So you're quite welcome!", 
+
+        "AEyeClose", 
+
+        "A: Yes, yes I'm eternally grateful.",
+
+        "AEyeOpen",
+
+        "A: Jeanne could also reason that I was just nervous about the whole thing too, right?",
+
+        "FPrimitive:", 
+
+        "P: NERVOUS NERVER NEVER.",
+
+        "P: Never is assumption the characteristic of a productive and sound mind. We must consider ourselves within an impermeable container that opaques the thoughts of whom we interact with.", 
+
+        "FPrimitive:", 
+
+        "Time: 2",
+
+        "S: Miraculous words from Prim...",
+
+        "A: Hm. Yeah. I don't know where all that comes from... but Primitive Ant makes sense...",
+
+        "A: More or less...", 
+
+        "F: Oh beau can't you see? Monsieur Ant has hit the nail on the head.",
+
+        "F: You fall in the trap of guessing the lady Jeanne's thoughts.",
+
+        "F: And it makes you critical of your actions.", 
+
+        "AEyeClose", 
+
+        "A: I think I do that with everyone I meet.", 
+
+        "AEyeOpen",
+
+        "A: If I don't know what people are thinking...", 
+
+        "A: How am I suppose to act?",
+
+        "S: Might I make a consideration?",
+
+        "S: Say you lost your ability to interact with people.", 
+
+        "S: For some reason or another, you would be on your own for a period of time.",
+
+        "S: What would you do?",
+
+        "A: Well, for one. I'd lose my freaking mind.", 
+
+        "S: Well, yes I don't doubt that.", 
+
+        "S: But you would also continue on, no?",
+
+        "S: You would have to walk through the world and take actions, make decisions.",
+
+        "S: Regardless of what people thought?",
+
+        "F: Suave has a point, mon beau.",
+
+        "F: People have thoughts you cannot control.",
+
+        "F: And some of those thoughts are about you.",
+
+        "F: Good or bad, it is not your role to change how you behave, tu crois pas?",
+
+        "AEyeClose", 
+
+        "A: Yeah... it is not my role to change how I believe.", 
+
+        "AEyeOpen",
+
+        "A: A good reminder... thank you.", 
+
+        "S: You are very welcome! You couldn't have gotten that off the internet, now could you?",
+
+        "Time: 2", 
+
+        "A: Well yes... I probably read this as an affirmation on the internet at some point.",
+
+        "A: But I appreciate the advice all the same.",
+
+        "FMachine:", 
+
+        "FFemme", 
+
+        "FSuave",
+
+        "M: DEACTIVATE INTERNET ROULETTE.",
+
+        "AEyeClose",
+
+        "M: KEY WORD: DISAPPOINTED.", 
+
+        "FMachine:",
+
+        "AEyeOpen",
+
+        "A: Yeah, sorry about that MACHINE. Looks like I'll save doomscrolling the internet for another night."
+
+    ],
+
+    "Connector_1":[
+
+        "AEyeClose:",
+
+        "A: Okay, let me reset a little.",
+        
+        "FMachine:", 
+        
+        "M: ACTIVATING MIND REFRESH", 
+        
+        "M: AD: GET 20% OFF A BRAND NEW SET OF DREAMS.", 
+        
+        "M: WHEN YOU CHOOSE MIND REFRESH TWO MORE TIMES.", 
+        
+        "A: Oh give me a break.", 
+
+        "M: KEY PHRASE UNLOCKED: WANT A BREAK FROM THE ADS?",
+
+        "A: MACHINE... go away please.",
+
+        "M: OPERATION STATUS: DISPLEASED.",
+
+        "FMachine",
+        
+        "AEyeOpen",
+        
+        "A: Okay, this date with Jeanne went well.", 
+        
+        "A: But why do I feel so weird about it?", 
+        
+        "A: Honestly... could it have been her eagerness?",
+
+        "A: I'm still trying to figure out why she messaged me a few hours after she met me.",
+
+        "AEyeClose",
+
+        "A: I definitely wasn't expecting that.",
+
+        "FSuave:",
+
+        "S: PARDON???", 
+
+        "S: JEANNE MESSAGED YOU FIRST?",
+
+        "AEyeOpen",
+
+        "A: Yes, Suave she did. You know this. I told you.",
+
+        "AEyeClose",
+
+        "A: And you're a constructed entity in my mind. How is it possible for you not to know?", 
+
+        "FPrimitive:", 
+
+        "AEyeOpen", 
+
+        "P: KNOW KNO NO", 
+
+        "P: No limits present itself as it pertains to the governing forces of your executive functioning, and therefore flaws will run abundant when the possibilities are vast.",
+
+        "FPrimitive:", 
+
+        "S: Right. What Prim said.",
+
+        "S: Your brain is akin to a cramped family cabin house.",
+
+        "S: That emits an odor. Equal parts familiar and musty...",
+
+        "S: Overall, a confusing and unpleasant time.",
+
+        "S: So apologies on behalf of your MND crew for the perplexity.",
+
+        "Time: 1",
+
+        "AEyeClose",
+
+        "A: This somehow made me feel worse about everything.",
+
+        "S: Ah cheer up, Amari! Perhaps moving onto something else will prove much more fruitful!",
+
+        "S: Distractions aid the world in its orbit, wouldn't you agree?",
+
+        "AEyeOpen",
+
+        "A: Yeah sure, whatever. Tell MACHINE to get it going.",
+
+        "S: You don't have to tell it twice! MACHINE are your thrusters engaged or what have you?",
+
+        "FSuave:",
+
+        "FMachine:", 
+        
+        "M: SET PARAMETER TO VAR...",
+        
+        "AEyeClose",
+        
+        "M: LOADING KERNEL...",
+        
+        "A: MACHINE come on, get on with it!!",
+        
+        "Time: 2",
+        
+        "M: AWAITING PASSPHRASE BEFORE PROCEEDING",
+        
+        "AEyeOpen",
+        
+        "A: Ugh... really.", 
+        
+        "Time: 2", 
+        
+        "AEyeClose", 
+        
+        "A: Okay, I'm sorry MACHINE. You may proceed.", 
+        
+        "M: PASSPHRASE ACCEPTED...", 
+        
+        "M: ACCESSING DECISION ADDRESS...",
+        
+        "M: DECISION ADDRESS UPLOADED.",
+        
+        "M: PLEASE PICK ONE."
+
+    ],
+    
+    "BrainOverride":[
+
+        "AEyeOpen",
+
+        "A: This whole night has been frustrating.",
+
+        "FSuave:", 
+
+        "S: Hm? What has been frustrating?",
+
+        "A: Suave... I still don't know what to do about Jeanne.", 
+
+        "S: Well, what else is there to do, in truth?",
+
+        "AEyeClose:", 
+
+        "S: Should we roll for more distraction options?",
+
+        "A: No it's not helping me get my mind off her.", 
+
+        "AEyeOpen", 
+
+        "A: What if Jeanne doesn't actually like me?",
+
+        "A: And I've drummed up this entire thing in my head for a week for no reason.",
+
+        "FFemme:", 
+
+        "F: Mais beau, why wouldn't Jeanne like you? Je t'adore!",
+
+        "A: Ms. Compatissante, that's sweet.",
+
+        "A: But you're just a voice in my head, so it's not all that encouraging.", 
+
+        "F: Excusez-moi, I would think you would think higher of us than just voices in your head.", 
+
+        "A: Okay but... you all quite literally are voices in my head.",
+
+        "AEyeClose:",
+
+        "A: It's not supposed to be an insult.", 
+
+        "S: Well I agree with Femme here, we're here for you in your times of crisis.", 
+
+        "S: I would still stay here with you even if there had been an option to go on a Spanish cruise.", 
+
+        "A: I guess I'm sorry you're missing out on mojitos and seafood platters...",
+
+        "A: Honestly, you're all here because I can't afford therapy.", 
+
+        "A: And I don't know how to healthily deal with my feelings without crafting absurd characters that live in my head.",
+
+        "AEyeOpen",
+
+        "A: And I can't seem to figure out how to walk myself off the ledge after every encounter with someone I'm remotely interested in.", 
+
+        "FMachine:", 
+
+        "M: SET SPIRAL TO ONLINE...",
+
+        "AEyeClose",
+
+        "A: Yeah like that is a ridiculous thing that just happened, all from my imagination.",
+
+        "AEyeOpen",
+
+        "A: And all for what? So I can compartmentalize my severe overthinking?", 
+
+        "FPrimitive:", 
+
+        "P: SEVERE SEVOR SEVER",
+
+        "P: Sever the aspects of your brain, if only temporarily, that inhibit your forward progress. Inaction and brooding will only result in higher emotional variance when time is no longer an agential factor.", 
+
+        "FPrimitive:", 
+
+        "Time: 2", 
+
+        "S: Hm. I agree with Prim on this one most certaintly.", 
+
+        "AEyeClose:",
+
+        "A: I think I'm just tired enough to not understand a single word of what Primitive said.", 
+
+        "A: But I think I feel the message...",
+
+        "AEyeOpen:",
+
+        "A: MACHINE, get ready.",
+
+        "S: What in heaven's name do you mean, get ready?",
+
+        "S: What are you going to do?",
+
+        "A: What I wanted to do in the first place.",
+
+        "FPrim:",
+
+        "P: SLEEP SLEP SLIP?",
+
+        "P: Slip into the primordial slumber you've longed for?",
+
+        "FPrim:",
+
+        "A: No, I'm going to call Jeanne.",
+
+        "Time: 3",
+
+        "S: You're going to... call?",
+
+        "A: Yep, I'm gonna do it.", 
+
+        "F: Beau I am thrilled by the possibility of this, mais are you certain this is the right choice?", 
+
+        "A: Absolutely not certain, but I can't keep running laps in my head and think myself out of this.", 
+
+        "A: I have to turn my brain off for this one... and really just trust my gut.",
+
+        "S: Pardon... are you saying you have voices in your stomach, Amari?",
+
+        "S: Why were we not privy to this? I could've invited them to our next potluck.",
+
+        "F: Suave hush, pour l'amour de Dieu!",
+
+        "A: Jeanne was really cool, and she looked really good.",
+
+        "AEyeClose", 
+
+        "A: And when we hugged I could smell vanilla on her neck.",
+
+        "AEyeOpen",
+
+        "A: It made my heart do cartwheels in my chest, and I want more of that.", 
+
+        "FOff:", 
+
+        "O: Passion is aflame here! I am but a vessel lost at sea in search of such a light as this I've stumbled upon.",
+
+        "S: Off-Off-Broadway, lovely to have you here...",
+
+        "O: It is simply a pleasure to stand witness to such a call to action. The desire! The bravado! Oh how I crave it like pollen to a honeybee, like geese to a marsh pond, like pickles to a...",
+
+        "A: Okay thanks Off-Off! Let's go MACHINE! Let's do this!",
+
+        "M: SET ALERTNESS LEVEL TO MAXIMUM.",
+
+        "M: OVERRIDE CHRONOBIOLOGICAL: CIRCADIAN RHYTHM.",
+
+        "M: OVERRIDE INCENTIVE SALIENCE AND REWARD STIMULI.",
+
+        "M: COMPLETED WITH ERRORS: SEE RAPID HEARTBEAT.",
+
+        "M: MND ANATOMY: PREPARED TO CLOSE...", 
+
+        "FMachine:", 
+
+        "F: Bonne chance, mon beau. We are rooting for you.",
+
+        "FFemme:", 
+
+        "O: Godspeed, may luck find you on the precipice of Britain's mountains, where we will await your return like villagers whispering of a prodigal hero.",
+
+        "FOff:", 
+
+        "FPrimitive:",
+
+        "P: AWAIT WAET WEAR", 
+
+        "P: Wear your heart on your sleeve, Amari. You are deserving of this moment of adrenaline-fueled abandonment as you pursue romantic opportunity.", 
+
+        "FPrimitive:", 
+
+        "S: Well good luck my dear Amari, do tell me all about how it goes some other night, alright?",
+
+        "A: You'll know how it goes Suave, but yeah I'll fill you in on the details.",
+
+        "S: Excellent. Let's get on with this then!",
+
+        "FSuave:", 
+
+        "A: Okay. Here goes nothing."
+
+    ],
+
+    "CallHer":[
+
+        "J: Hello, this is Jeanne?",
+
+        "A: Uh, hey Jeanne. This is Amari.",
+
+        "A: From dinner?", 
+
+        "J: Amari from dinner...",
+
+        "J: I think that rings a bell...",
+
+        "A: You know, the reasonably tall guy...",
+
+        "A: Nice bone structure...",
+
+        "A: Ordered the chicken steak because he's afraid of new menu items...",
+
+        "J: Surprisingly, that doesn't narrow down the men I've gone on dates with.",
+
+        "J: You should've thrown in smart and kind-hearted in there.",
+
+        "J: You're one-in-one on that.",
+
+        "J: Anyway, what's up?",
+
+        "A: Ha well... I just wanted to say...",
+
+        "A: Well, okay so...",
+
+        "A: I had a really good time tonight.",
+
+        "A: And I hope you feel the same...",
+
+        "J: Amari, what are you doing?",
+
+        "A: I'm... I'm trying to figure out why I feel like I was weird today.",
+
+        "A: And I've been in bed thinking.",
+
+        "AEyeClose",
+
+        "A: And thinking and thinking and thinking...",
+
+        "AEyeOpen",
+
+        "A: And I finally said 'screw it' and decided to call you.",
+
+        "A: To get to the answer once and for all.",
+
+        "A: And so... yeah. Here we are.",
+
+        "A: So, Jeanne. Hate to disturb you so late at night.",
+
+        "A: But I was wondering if I was weird tonight?",
+
+        "Time: 2",
+
+        "A: And if I was, sorry about that I was a little nervous and I promise I'm usually a lot calmer...",
+
+        "Time: 5",
+
+        "A: Ah... Jeanne?",
+        
+        "A: You still there?",
+        
+        "Time: 3", 
+
+        "J: Ah! Sorry... I wanted you to sit in the awkwardness a little.",
+
+        "AEyeClose",
+
+        "A: Yeah you have no idea how fast my heart is beating right now.",
+
+        "A: I just asked a girl I like if I was weird after the first date.",
+
+        "AEyeOpen",
+
+        "A: Treading new territory everyday over here.",
+
+        "J: Well, you're being weird right now, that's for sure.",
+
+        "J: And you were weird during our dinner.",
+
+        "J: But you were also weird when I met you...",
+
+        "J: You forgot that you tried juggling tangerines in front of me after I gave you my Instagram.",
+
+        "A: Oh yeah... I was in complete panic mode and I thought juggling would at least impress you somehow.",
+
+        "A: I don't recommend it. High chance of failure and makes the situation worse if you do drop a tangerine.",
+
+        "J: And you didn't drop one, so that was pretty cool.",
+
+        "A: Gosh thank you, I really surprised myself there.",
+
+        "A: So much so that I didn't spiral about why I thought juggling was smart in the first place.",
+
+        "J: Ha, the thing is, Amari.",
+
+        "J: I wanted to go out on a date with you because of your weirdness.",
+
+        "J: I'm tired of the stale world we choose to hide in.",
+
+        "J: Everyone needs to just relax and be themselves.",
+
+        "J: I don't care how many business seminars you attended to get your PHD in Marketing Structures.",
+        
+        "J: Or Free Range Sandwhich Selling.",
+        
+        "J: Or whatever people want to call it.",
+
+        "J: Just be goofy and embrace the freedom that grants us.",
+
+        "J: You know what I'm saying?",
+
+        "A: I'm kind of at a loss for words right now.",
+
+        "AEyeClose",
+
+        "A: Just picture me nodding fiercely in agreement.",
+
+        "J: I can see it clearly, Amari. Like a 4k photo.", 
+
+        "J: But does all that answer your question?",
+
+        "AEyeOpen",
+
+        "A: Answers it and more, Jeanne.",
+
+        "A: I'm a bit of an overthinker...",
+        
+        "A: And it felt impossible to fall asleep without hearing your perspective on how the night went.",
+
+        "J: To me it sounds like you wanted to hear my voice before you fell asleep.",
+
+        "J: Which is the kind of romance I personally die for.",
+
+        "A: Ha, there's more where that came from then.",
+
+        "Time: 2",
+
+        "A: Thank you for this. I'm glad I could call you.",
+
+        "A: I'd usually say sorry for being weird, but I don't feel the need to right now.",
+
+        "J: Then don't say it.",
+
+        "Time: 3",
+
+        "J: You're a weird guy, Amari.",
+        
+        "J: Let's make plans this week so I can tell you how weird you are in person.",
+
+        "A: Heh, never thought you'd ask.",
+
+        "J: Talk soon, Amari. Hope your strange mind has the sweetest dreams.",
+
+        "A: Night Jeanne, dream strange and sweet too."
+    ],
+    "End":[
+        "A: Yeah. I was weird today."
+    ],
     "Flip":[
 
         "FMachine:",

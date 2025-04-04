@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/femme.png-881a6fcb5cb615accb9f4344649f0bda.ct
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
